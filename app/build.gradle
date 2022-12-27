@@ -1,0 +1,144 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'kotlin-parcelize'
+    id 'dagger.hilt.android.plugin'
+    id 'androidx.navigation.safeargs.kotlin'
+    id 'com.yanzhenjie.andserver'
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.leaf.explorer"
+        minSdk 21
+        targetSdk 32
+        versionCode 151
+        versionName "5.0.1"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        vectorDrawables {
+            useSupportLibrary = true
+        }
+    }
+
+    buildFeatures {
+        dataBinding true
+    }
+
+    signingConfigs {
+        gbDistribution {
+            // In the root folder of the project, you can find the template properties file
+            // named 'signing.properties.txt'. Rename it to 'signing.properties' to make use of it
+            def signingPropertiesFile = project.rootProject.file('signing.properties')
+
+            if (signingPropertiesFile.exists()) {
+                Properties signingProperties = new Properties()
+                signingProperties.load(signingPropertiesFile.newDataInputStream())
+
+                storeFile file(signingProperties.getProperty('signing.storeFile'))
+                keyAlias signingProperties.getProperty('signing.keyAlias')
+                storePassword signingProperties.getProperty('signing.storePassword')
+                keyPassword signingProperties.getProperty('signing.keyPassword')
+            }
+        }
+    }
+
+    compileOptions {
+        coreLibraryDesugaringEnabled true
+
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            minifyEnabled false
+            applicationIdSuffix '.debug'
+            versionNameSuffix '-DEBUG'
+        }
+    }
+
+    flavorDimensions 'mode'
+
+    productFlavors {
+        fossReliant {
+            applicationId = 'com.leaf.explorer'
+            dimension 'mode'
+            signingConfig signingConfigs.gbDistribution
+        }
+
+        googlePlay {
+            applicationId = 'com.leaf.explorer.pro'
+            dimension 'mode'
+            signingConfig signingConfigs.gbDistribution
+        }
+    }
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    androidTestImplementation 'androidx.test.ext:junit-ktx:1.1.3'
+
+    //
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.5'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "com.google.dagger:hilt-android:$hilt_version"
+    kapt "com.google.dagger:hilt-android-compiler:$hilt_version"
+
+    // Library
+    implementation project(':core')
+
+    // AndroidX
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.core:core-ktx:1.8.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.fragment:fragment-ktx:1.5.2'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+    implementation 'androidx.preference:preference-ktx:1.2.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.5.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
+    implementation 'androidx.room:room-ktx:2.4.3'
+    implementation 'androidx.room:room-runtime:2.4.3'
+    kapt 'androidx.room:room-compiler:2.4.3'
+    kapt 'androidx.annotation:annotation:1.3.0'
+
+    // Material Design
+    implementation 'com.google.android.material:material:1.6.1'
+
+    implementation 'com.google.code.gson:gson:2.9.0'
+    implementation "io.noties.markwon:core:4.6.2"
+
+    implementation 'com.yanzhenjie.andserver:api:2.1.9'
+    kapt 'com.yanzhenjie.andserver:processor:2.1.9'
+
+    implementation "com.github.bumptech.glide:glide:$glide_version"
+    kapt "com.github.bumptech.glide:compiler:$glide_version"
+    implementation "com.github.bumptech.glide:okhttp3-integration:$glide_version"
+
+}
+
+//@LeafShare2820MD
