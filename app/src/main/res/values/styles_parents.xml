@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2022 Mahadev Code
+  ~
+  ~ This program is free software; you can redistribute it and/or
+  ~ modify it under the terms of the GNU General Public License
+  ~ as published by the Free Software Foundation; either version 2
+  ~ of the License, or (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+  -->
+
+<resources>
+    <!-- prototype start -->
+    <style name="Theme.Prototype.LeafExplorer.Base" parent="Theme.Material3.Light">
+        <!-- Material3 color related -->
+        <item name="colorPrimary">@color/light_colorPrimary</item>
+        <item name="colorOnPrimary">@color/light_colorOnPrimary</item>
+        <item name="colorPrimaryContainer">@color/light_colorPrimaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/light_colorOnPrimaryContainer</item>
+        <item name="colorSecondary">@color/light_colorSecondary</item>
+        <item name="colorOnSecondary">@color/light_colorOnSecondary</item>
+        <item name="colorSecondaryContainer">@color/light_colorSecondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/light_colorOnSecondaryContainer</item>
+        <item name="colorTertiary">@color/light_colorTertiary</item>
+        <item name="colorOnTertiary">@color/light_colorOnTertiary</item>
+        <item name="colorTertiaryContainer">@color/light_colorTertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/light_colorOnTertiaryContainer</item>
+        <item name="colorError">@color/light_colorError</item>
+        <item name="colorErrorContainer">@color/light_colorErrorContainer</item>
+        <item name="colorOnError">@color/light_colorOnError</item>
+        <item name="colorOnErrorContainer">@color/light_colorOnErrorContainer</item>
+        <item name="android:colorBackground">@color/light_colorBackground</item>
+        <item name="colorOnBackground">@color/light_colorOnBackground</item>
+        <item name="colorSurface">@color/light_colorSurface</item>
+        <item name="colorOnSurface">@color/light_colorOnSurface</item>
+        <item name="colorSurfaceVariant">@color/light_colorSurfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/light_colorOnSurfaceVariant</item>
+        <item name="colorOutline">@color/light_colorOutline</item>
+        <!-- Material3 color related end -->
+
+        <item name="cardViewStyle">@style/Widget.LeafExplorer.CardView</item>
+        <item name="materialCardViewStyle">@style/Widget.LeafExplorer.CardView</item>
+
+        <!-- app styling -->
+        <item name="colorDivider">@color/light_colorDivider</item>
+        <item name="colorPassive">@color/light_colorPassive</item>
+        <item name="roundSelector">@drawable/zxing_round_selector</item>
+        <item name="rectSelector">@drawable/rect_selector</item>
+        <item name="colorSelection">@color/light_colorSelection</item>
+        <item name="stateRoundedBorder">@drawable/state_rounded_border</item>
+
+        <item name="stateSelectedImageRoundedGuiding">@drawable/state_selected_image_rounded_guiding</item>
+
+        <item name="statusBarColor">@android:color/transparent</item>
+        <item name="useLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.Prototype.LeafExplorer.Dark.Base" parent="Theme.Material3.Dark">
+        <!-- Material3 related -->
+        <item name="colorPrimary">@color/dark_colorPrimary</item>
+        <item name="colorOnPrimary">@color/dark_colorOnPrimary</item>
+        <item name="colorPrimaryContainer">@color/dark_colorPrimaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/dark_colorOnPrimaryContainer</item>
+        <item name="colorSecondary">@color/dark_colorSecondary</item>
+        <item name="colorOnSecondary">@color/dark_colorOnSecondary</item>
+        <item name="colorSecondaryContainer">@color/dark_colorSecondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/dark_colorOnSecondaryContainer</item>
+        <item name="colorTertiary">@color/dark_colorTertiary</item>
+        <item name="colorOnTertiary">@color/dark_colorOnTertiary</item>
+        <item name="colorTertiaryContainer">@color/dark_colorTertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/dark_colorOnTertiaryContainer</item>
+        <item name="colorError">@color/dark_colorError</item>
+        <item name="colorErrorContainer">@color/dark_colorErrorContainer</item>
+        <item name="colorOnError">@color/dark_colorOnError</item>
+        <item name="colorOnErrorContainer">@color/dark_colorOnErrorContainer</item>
+        <item name="android:colorBackground">@color/dark_colorBackground</item>
+        <item name="colorOnBackground">@color/dark_colorOnBackground</item>
+        <item name="colorSurface">@color/dark_colorSurface</item>
+        <item name="colorOnSurface">@color/dark_colorOnSurface</item>
+        <item name="colorSurfaceVariant">@color/dark_colorSurfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/dark_colorOnSurfaceVariant</item>
+        <item name="colorOutline">@color/dark_colorOutline</item>
+        <!-- Material3 related end -->
+
+        <item name="cardViewStyle">@style/Widget.LeafExplorer.CardView</item>
+        <item name="materialCardViewStyle">@style/Widget.LeafExplorer.CardView</item>
+
+        <!-- app styling -->
+        <item name="colorDivider">@color/dark_colorDivider</item>
+        <item name="colorPassive">@color/dark_colorPassive</item>
+        <item name="roundSelector">@drawable/zxing_round_selector</item>
+        <item name="rectSelector">@drawable/rect_selector</item>
+        <item name="colorSelection">@color/dark_colorSelection</item>
+        <item name="stateRoundedBorder">@drawable/state_rounded_border</item>
+
+        <item name="stateSelectedImageRoundedGuiding">@drawable/state_selected_image_rounded_guiding</item>
+
+        <item name="statusBarColor">@android:color/transparent</item>
+        <item name="useLightStatusBar">false</item>
+    </style>
+    <!-- prototype end -->
+
+
+
+
+    <!-- generalization start -->
+    <style name="Theme.LeafExplorer.Base" parent="Theme.Prototype.LeafExplorer.Base" />
+
+    <style name="Theme.LeafExplorer.Dark.Base" parent="Theme.Prototype.LeafExplorer.Dark.Base" />
+
+    <style name="Theme.LeafExplorer.Base.NoActionBar" parent="@style/Theme.LeafExplorer.Base">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.LeafExplorer.Dark.Base.NoActionBar" parent="@style/Theme.LeafExplorer.Dark.Base">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- generalization end -->
+</resources>

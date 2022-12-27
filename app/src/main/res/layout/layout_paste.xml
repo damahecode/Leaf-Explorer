@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ellipsize="middle"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="Copy: 50 KB/sec, 2m" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:text="From: c:/file.txt" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="middle"
+        android:maxLines="3"
+        android:text="To: c:/file.txt" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="5dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_file"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:id="@+id/progress_total"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="30" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/files_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4/44" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/files_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="300 Mb / 1500 Mb" />
+    </LinearLayout>
+</LinearLayout>

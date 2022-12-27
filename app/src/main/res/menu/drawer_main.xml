@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2022 Mahadev Code
+  ~
+  ~ This program is free software; you can redistribute it and/or
+  ~ modify it under the terms of the GNU General Public License
+  ~ as published by the Free Software Foundation; either version 2
+  ~ of the License, or (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:id="@+id/nav_group_main">
+
+        <item
+            android:id="@+id/preferences"
+            android:icon="@drawable/ic_settings_white_24dp"
+            android:orderInCategory="1"
+            android:title="@string/preferences" />
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_info_white_24dp"
+            android:orderInCategory="2"
+            android:title="@string/about" />
+
+    </group>
+
+    <group android:id="@+id/nav_group_support">
+        <item
+            android:id="@+id/donate"
+            android:icon="@drawable/ic_favorite_white_24dp"
+            android:orderInCategory="3"
+            android:title="@string/donate"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/about_damahe_code"
+            android:orderInCategory="4"
+            app:actionLayout="@layout/layout_damahe_code_banner"
+            tools:ignore="MenuTitle" />
+
+    </group>
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/mount_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mount_dialog_info"
+            android:padding="5dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="691dp"
+            android:contentDescription="@string/mount"
+            android:src="@drawable/img_tips_sdcard"
+            android:layout_below="@id/mount_info"
+            android:layout_above="@id/mount_note"/>
+
+        <TextView
+            android:id="@+id/mount_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mount_note"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

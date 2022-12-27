@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2022 Mahadev Code
+  ~
+  ~ This program is free software; you can redistribute it and/or
+  ~ modify it under the terms of the GNU General Public License
+  ~ as published by the Free Software Foundation; either version 2
+  ~ of the License, or (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+  -->
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_sharing"
+    app:startDestination="@id/transferFragment">
+
+    <fragment
+        android:id="@+id/transferFragment"
+        android:name="com.leaf.explorer.fragment.TransferFragment"
+        android:label="@string/transfers">
+
+        <action
+            android:id="@+id/action_transferFragment_to_sharingFragment"
+            app:destination="@id/sharingFragment" />
+
+        <action
+            android:id="@+id/action_transferFragment_to_webShareLauncherFragment2"
+            app:destination="@id/webShareLauncherFragment2" />
+
+        <action
+            android:id="@+id/action_transferFragment_to_webTransferDetailsFragment"
+            app:destination="@id/webTransferDetailsFragment"
+            app:launchSingleTop="true" />
+    </fragment>
+
+    <action
+        android:id="@+id/action_global_sharingFragment"
+        app:destination="@id/sharingFragment" />
+    <fragment
+        android:id="@+id/sharingFragment"
+        android:name="com.leaf.explorer.fragment.SharingFragment"
+        android:label="@string/text_leaf_share">
+
+        <action
+            android:id="@+id/action_sharingFragment_to_webShareLauncherFragment2"
+            app:destination="@id/webShareLauncherFragment2" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/webShareLauncherFragment2"
+        android:name="com.leaf.explorer.fragment.dialog.WebShareLauncherFragment"
+        android:label="@string/web_share" />
+
+    <dialog
+        android:id="@+id/webTransferDetailsFragment"
+        android:name="com.leaf.explorer.fragment.dialog.WebTransferDetailsFragment"
+        android:label="@string/transfer_details">
+        <argument
+            android:name="transfer"
+            app:argType="com.leaf.explorer.database.model.WebTransfer" />
+    </dialog>
+    <action
+        android:id="@+id/action_global_webTransferDetailsFragment"
+        app:destination="@id/webTransferDetailsFragment"
+        app:launchSingleTop="true" />
+
+</navigation>

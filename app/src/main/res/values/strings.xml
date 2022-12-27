@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2019 Veli Tasalı
+  ~
+  ~ This program is free software; you can redistribute it and/or
+  ~ modify it under the terms of the GNU General Public License
+  ~ as published by the Free Software Foundation; either version 2
+  ~ of the License, or (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name" translatable="false">Leaf Explorer</string>
+    <string name="leaf_explorer" translatable="false">Leaf Explorer</string>
+    <string name="text_leaf_share" translatable="false">Leaf Share</string>
+    <string name="open_navigation_drawer">Open Navigation Drawer</string>n
+    <string name="close_navigation_drawer">Close Navigation Drawer</string>
+    <string name="preferences">Preferences</string>
+    <string name="receive_file_question">Receive the file?</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="stop">Stop</string>
+    <string name="sending">Sending</string>
+    <string name="cancel_sending">Cancel Sending</string>
+    <string name="receiving">Receiving</string>
+    <string name="cancel_receiving">Cancel Reception</string>
+    <string name="receive_file_success">%s has been received</string>
+    <string name="empty_list">The list is empty</string>
+    <string name="nickname_description">The name that will appear on other clients</string>
+    <string name="send_file_failure">Could not send \"%s\"</string>
+    <string name="receive_file_failure">Could not receive \"%s\"</string>
+    <string name="receive_files_success">Files received</string>
+    <string name="preferences_reset">Reset Settings</string>
+    <string name="preferences_reset_question">Reset all settings?</string>
+    <string name="choose_sharing_app">Share with…</string>
+    <string name="received_files">Received Files</string>
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="delete_all">Delete All</string>
+    <string name="deletion_confirmation">Confirm Deletion</string>
+    <string name="cancel">Cancel</string>
+    <string name="mount">Mount</string>
+    <string name="mount_dialog">Write access to external memory card</string>
+    <string name="mount_dialog_info">One time acton is needed to get writing access to your external memory card.\n\n Please click Mount to proceed.\n\n You will get dialog similar to this:</string>
+    <string name="mount_note">Leaf Explorer will get needed access for now and future.</string>
+    <string name="refresh">Refresh</string>
+    <string name="about">About</string>
+    <string name="close">Close</string>
+    <string name="unknown_failure">Something went wrong</string>
+    <string name="advanced">Advanced</string>
+    <string name="storage_path">Storage Path</string>
+    <string name="path_unavailable_notice">The path \'%s\' is unavailable</string>
+    <string name="stopping">Stopping</string>
+    <string name="notification">Notification</string>
+    <string name="notifications_use_sounds">Sounds</string>
+    <string name="notifications_use_sounds_summary">Use sounds</string>
+    <string name="notifications_use_vibration">Vibration &amp; Heads-up Notifications</string>
+    <string name="notifications_use_vibration_summary">Use vibration and show heads-up notifications</string>
+    <string name="notifications_use_lights">Lights</string>
+    <string name="notifications_use_lights_summary">Use lights</string>
+    <string name="app">App</string>
+    <string name="music">Music</string>
+    <string name="video">Video</string>
+    <string name="show_system_apps">Show System Apps</string>
+    <string name="error_not_allowed">You are not allowed (you may be blocked)</string>
+    <string name="multi_selection">Multi Selection</string>
+    <string name="receive">Receive</string>
+    <string name="block">Block</string>
+    <string name="launch">Launch</string>
+    <string name="launch_question">Do you want to launch this app?</string>
+    <string name="launch_app_failure">This app cannot be launched</string>
+    <string name="enter_text_notice">Enter text here…</string>
+    <string name="copy_text_to_clipboard_success">Text copied to clipboard</string>
+    <string name="copy_to_clipboard_question">Copy to clipboard?</string>
+    <string name="receive_text_success">Text received</string>
+    <string name="receive_text_summary_success">Received clipboard text</string>
+    <string name="type_text_notice">Type something to send…</string>
+    <string name="text_editor">Text Editor</string>
+    <string name="done">Done</string>
+    <string name="empty_text">empty</string>
+    <string name="wifi_settings">Wi-Fi</string>
+    <string name="proceed">Proceed</string>
+    <string name="remove_transfer_question">Remove transfer?</string>
+    <string name="remove">Remove</string>
+    <string name="remove_all">Remove All</string>
+    <string name="remove_client_question">Remove client?</string>
+    <string name="remove_client_notice">Removing a client also removes the data related to it</string>
+    <string name="remove_all_question">Remove all?</string>
+    <string name="folder">Folder</string>
+    <string name="organizing_files_notice">Organizing files…</string>
+    <string name="error">Error</string>
+    <string name="double_click_exit_notice">Press again to exit</string>
+    <string name="create">Create</string>
+    <string name="create_folder">Create Folder</string>
+    <string name="error_file_already_exists">File already exists</string>
+    <string name="create_folder_failure">Folder could not be created</string>
+    <string name="storage_permission_summary">This permission allows Leaf Explorer to read and write to your device\'s
+        storage for receiving and sharing files.
+    </string>
+    <string name="settings">Settings</string>
+    <string name="default_folder">Default Folder</string>
+    <string name="text_storage">Storage</string>
+    <string name="change_storage_path_success">The directory has been changed</string>
+    <string name="status">Status</string>
+    <string name="resume">Resume</string>
+    <string name="transfer_details">Transfer Details</string>
+    <string name="choose_folder">Choose Folder</string>
+    <string name="choose_file">Choose File</string>
+    <string name="show">Show</string>
+    <string name="preparing_files">Preparing Files</string>
+    <string name="version">Version</string>
+    <string name="pending">Pending</string>
+    <string name="running">Running</string>
+    <string name="interrupted">Interrupted</string>
+    <string name="unknown">Unknown</string>
+    <string name="long_ago">Long ago</string>
+    <string name="wifi_direct">Wi-Fi Direct</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="ethernet">Ethernet</string>
+    <string name="unknown_interface">Unknown Connection</string>
+    <string name="retry_receiving">Retry Receiving</string>
+    <string name="request">Request</string>
+    <string name="storage_permission">Storage Permission</string>
+    <string name="media_directory">Media Directory</string>
+    <string name="insufficient_space_notice">Not enough space</string>
+    <string name="removed">Removed</string>
+    <string name="copy_to_clipboard">Copy to Clipboard</string>
+    <string name="service_running_notice">Leaf Explorer can share files now</string>
+    <string name="remaining_time">ETA %s</string>
+    <string name="show_files">Show Files</string>
+    <string name="trust">Trust</string>
+    <string name="download">Download</string>
+    <string name="update_clipboard_notice">Revise the text or press again to exit</string>
+    <string name="save_clipboard_notice">Save the text or press again to exit</string>
+    <string name="update">Update</string>
+    <string name="save">Save</string>
+    <string name="just_now">Just now</string>
+    <string name="error_hotspot_needs_permission">Leaf Explorer needs permission to set up a hotspot</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="set_up_hotspot_mobile_data_notice">Connected devices may use cellular data. You may want to turn
+        it off.
+    </string>
+    <string name="skip">Skip</string>
+    <string name="enable">Enable</string>
+    <string name="location_settings">Location</string>
+    <string name="starting_hotspot_notice">Stopping hotspot</string>
+    <string name="stopping_hotspot_notice">Starting hotspot</string>
+    <string name="check">Check</string>
+    <string name="uncheck">Uncheck</string>
+    <string name="client_not_supported_notice">This client uses a version that is no longer supported!</string>
+    <string name="select_all">Select All</string>
+    <string name="select_none">Select None</string>
+    <string name="preview_selections">Preview Selections</string>
+    <string name="retry_receiving_notice">Leaf Explorer will retry receiving interrupted transfers</string>
+    <string name="set_up">Set Up</string>
+    <string name="location">Location</string>
+    <string name="received_size">Received Size</string>
+    <string name="save_file_success">File saved</string>
+    <string name="sort_by">Sort By</string>
+    <string name="sort_order">Sort Order</string>
+    <string name="ascending">Biggest First ↑</string>
+    <string name="descending">Smallest First ↓</string>
+    <string name="name">Name</string>
+    <string name="date">Date</string>
+    <string name="size">Size</string>
+    <string name="preferences_reset_notice">This will restore default settings</string>
+    <string name="deleting_files_notice">Deleting files</string>
+    <string name="ongoing_task">Ongoing Task</string>
+    <string name="high_priority_notifications">Important Notifications</string>
+    <string name="low_priority_notifications">Low Priority Notifications</string>
+    <string name="receive_success_summary">Received %s in %s</string>
+    <string name="count_years_short">%d yr</string>
+    <string name="count_months_short">%d mth</string>
+    <string name="count_days_short">%d dy</string>
+    <string name="count_hours_short">%d hr</string>
+    <string name="count_minutes_short">%d min</string>
+    <string name="count_seconds_short">%d sec</string>
+    <string name="exit">Exit</string>
+    <string name="empty_files_list">No files here</string>
+    <string name="empty_photos_list">No photos here</string>
+    <string name="empty_apps_list">No apps here</string>
+    <string name="empty_video_list">No videos here</string>
+    <string name="empty_writings_list">Writings will appear here</string>
+    <string name="empty_music_list">No songs in here</string>
+    <string name="internal_storage">Internal Storage</string>
+    <string name="emulated_media_directory">Emulated (%s)</string>
+    <string name="empty_search_result_summary">No result for \"%s\"</string>
+    <string name="access_failure_notice">Cannot access \"%s\"</string>
+    <string name="scan_qr_code_notice">Scan this code to share on the other client</string>
+    <string name="scanner_qr_code_notice">Align the QR code scanner with the box</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="notification_settings_summary">Open notification settings</string>
+    <string name="rename">Rename</string>
+    <string name="copy_here">Copy Here</string>
+    <string name="help_translate">Translation</string>
+    <string name="photo">Photo</string>
+    <string name="home">Home</string>
+    <string name="files">Files</string>
+    <string name="text_connect">Connect</string>
+    <string name="share_with_other_apps">Share with Other Apps</string>
+    <string name="mesg_wifiEnableRequired">Enable WiFi</string>
+    <string name="start_hotspot">Set Up Hotspot</string>
+    <string name="stop_hotspot">Stop Hotspot</string>
+    <string name="completing">Completing</string>
+    <string name="camera_permission_notice">Camera permission required</string>
+    <string name="file">File</string>
+    <string name="third_party_libraries">Third-Party Libraries</string>
+    <string name="donate">Support Us</string>
+    <string name="donation_success">Thank you for your donation!</string>
+    <string name="open">Open</string>
+    <string name="pause">Pause</string>
+    <string name="retry">Retry</string>
+    <string name="storage_path_unavailable_notice">Saving files to the default folder since the desired one
+        is not accessible.
+        \n
+        \n%s
+    </string>
+    <string name="changelog">Changelog</string>
+    <string name="allow">Allow</string>
+    <string name="telegram" translatable="false">Telegram</string>
+    <string name="middle_dot" translatable="false">·</string>
+    <string name="empty_transfers_list">All transfers appear here</string>
+    <string name="transfers">Transfers</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="send_success">Sent</string>
+    <string name="success">Success</string>
+    <string name="send_text">Send Text</string>
+    <string name="start">Start</string>
+    <string name="downloads">Downloads</string>
+    <string name="documents">Documents</string>
+    <string name="shortcuts">Shortcuts</string>
+    <string name="recent_files">Recent Files</string>
+    <string name="sends">Send</string>
+    <string name="add_more">Add More</string>
+    <string name="add_files">Add Files</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="search">Search</string>
+    <string name="enable_wifi_failure">Wi-Fi won\'t turn on</string>
+    <string name="turning_wifi_on_notice">Turning Wi-Fi on</string>
+    <string name="location_permission_required_notice">Needs location permission</string>
+    <string name="removing_notice">Removing…</string>
+    <string name="help">Help</string>
+    <string name="choose">Choose</string>
+    <string name="externally_started_hotspot_notice">Externally started hotspot cannot be managed from here</string>
+    <string name="removal_success">Removed</string>
+    <string name="add_success">Added</string>
+    <string name="welcome">Welcome</string>
+    <string name="introduction_personalize">Make It Yours</string>
+    <string name="introduction_set_up_permissions">Set Up Permissions</string>
+    <string name="introduction_finished">All Set!</string>
+    <string name="introduction_set_up_profile">Set Up Your Profile</string>
+    <string name="count_milliseconds_short">%d ms</string>
+    <string name="use_recommended_fonts">Recommended Font</string>
+    <string name="use_recommended_fonts_notice">Use the supplied custom font</string>
+    <string name="waiting">Waiting…</string>
+    <string name="theme_optimize">AMOLED</string>
+    <string name="theme_optimize_summary">Uses less power</string>
+    <string name="error_not_trusted_notice">You need to be trusted by the client</string>
+    <string name="web_share">Web Share</string>
+    <string name="visit_using_browser_notice">Visit this link with your web browser</string>
+    <string name="empty_connections_list">Networks you connect to appear here</string>
+    <string name="vpn_interface">VPN Server</string>
+    <string name="unrecognized_qr_code_notice">Unrecognized code</string>
+    <string name="save_text_success">Text saved</string>
+    <string name="show_as_qr_code">Show as QR code</string>
+    <string name="delete_received_files_question">Delete received files from disk too</string>
+    <string name="clients">Clients</string>
+    <string name="crash_report">Crash Report</string>
+    <string name="crash_report_notice">Leaf Explorer crashed previously.</string>
+    <string name="error_unknown_host">Could not resolve this host address.</string>
+    <string name="ui_theme">Theme</string>
+    <string name="dark_theme">Dark</string>
+    <string name="light_theme">Light</string>
+    <string name="follow_system_theme">Follow system</string>
+    <string name="battery_saver_theme">Decided by Battery Saver</string>
+    <string name="split_apk">Split APK</string>
+    <string name="delete_empty_text_question">Delete the empty text?</string>
+    <string name="compose">Compose</string>
+    <string name="transfer_history">Transfer History</string>
+    <string name="choose_client">Choose Client</string>
+    <string name="show_all">Show All</string>
+    <string name="online_clients">Online Clients</string>
+    <string name="add_new_client">Add New Client</string>
+    <string name="generate_qr_code">Generate QR Code</string>
+    <string name="nothing_worked_rhetorical">Nothing Worked?</string>
+    <string name="qr_code_image_notice">A QR code will appear here.</string>
+    <string name="set_up_network_notice">Set up a hotspot or connect to Wi-Fi</string>
+    <string name="host_address_invalid_notice">Please enter an internet address here.</string>
+    <string name="credentials_mismatch">Credentials Mismatch</string>
+    <string name="credentials_mismatch_notice">Invalidate \"%s\"\'s certificate to communicate with it.</string>
+    <string name="error_different_client">The connected client was different</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="error_unrecognized">%s error</string>
+    <string name="error_socket_connection">Could not connect to the service</string>
+    <string name="error_no_route_to_host">Unreachable address</string>
+    <string name="empty_online_clients_list">Online clients appear here</string>
+    <string name="error_content_not_accessible">Inaccessible content</string>
+    <string name="error_content_already_exists">Content already exists</string>
+    <string name="error_content_not_found">Content not found</string>
+    <string name="tap_to_launch_notice">Tap to launch</string>
+    <string name="stop_all">Stop All</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="host_address">Host Address</string>
+    <string name="license">License</string>
+    <string name="shared_texts">Shared Texts</string>
+    <string name="github" translatable="false">GitHub</string>
+    <string name="join_us">Join Us</string>
+    <string name="visit_license_url">Go to License URL</string>
+    <string name="visit_web_page">Visit Website</string>
+    <string name="background_service">Background Service</string>
+    <string name="empty_clients_list">Clients appear here</string>
+    <string name="all_clients">All Clients</string>
+    <string name="connect_to_wifi">Connect to Wi-Fi</string>
+    <string name="wifi_connection_notice">1- Open Wi-Fi settings.
+        \n\n2- Wait until \"%s\" appears on the Wi-Fi list.
+        \n\n3- Pick it (%s) and paste the password (%s).
+        \n\n4- Return here after connecting.
+    </string>
+    <string name="copy_password_and_open_settings"><![CDATA[Copy Password and Open Settings]]></string>
+    <string name="wifi_password">Wi-Fi Password</string>
+    <string name="notifications_instructive">Instructive Notifications</string>
+    <string name="connect_to_wifi_notice">Connect to \"%s\"</string>
+    <string name="enter_wifi_password_notice">Paste the password \"%s\"</string>
+    <string name="not_connected_yet_notice">Not connected yet</string>
+    <string name="tap_to_connect">Tap to Connect</string>
+    <string name="location_service_disabled_notice">Location service off</string>
+    <string name="wifi_disabled_notice">Wi-Fi off</string>
+    <string name="write_system_settings_permission_required_notice">Needs permission to modify system settings</string>
+    <string name="connect_to_client">Connect to Client</string>
+    <string name="client_offline_notice">The remote is unavailable</string>
+    <string name="matching_client_question">Is this the client you are looking for?</string>
+    <string name="verify_client">Verify Client</string>
+    <string name="client_details">Client Details</string>
+    <string name="client_model">Model</string>
+    <string name="percent_sign" translatable="false">%</string>
+    <string name="waiting_receiver_approval_notice">Starting once the recipient approves…</string>
+    <string name="incoming">Incoming</string>
+    <string name="outgoing">Outgoing</string>
+    <string name="error_communication_unknown">Unknown communication error</string>
+    <string name="error_client_no_address">The client has no address (try connecting manually)</string>
+    <string name="error_protocol_unknown">Unknown protocol error</string>
+    <string name="completed">Completed</string>
+    <string name="run_in_background">Run in Background</string>
+    <string name="selections">Selections</string>
+    <string name="preparing">Preparing…</string>
+    <string name="web_share_description">An interface for file-sharing via web browsers</string>
+    <string name="share_on_web">Share on Web</string>
+    <string name="sharing_on_web">Sharing on Web</string>
+    <string name="songs">Songs</string>
+    <string name="videos">Videos</string>
+    <string name="images">Images</string>
+    <string name="folders">Folders</string>
+    <string name="web_share_empty_notice">Share something from the app first.</string>
+    <string name="send_using_web_share_success_notice">Sent \"%s\"</string>
+    <string name="receiving_using_web_web_share">Receiving using Web Share</string>
+    <string name="received_using_web_share">Received using Web Share</string>
+    <string name="warning_permissions_not_accepted">Set up the permissions first.</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="remove_picture">Remove Picture</string>
+    <string name="change_picture">Change Picture</string>
+    <string name="grant">Grant</string>
+    <string name="granted">Granted</string>
+    <string name="error_no_activity_to_view">Could not find an app to open the content with</string>
+    <string name="manage_clients">Manage Clients</string>
+    <string name="apps">Apps</string>
+    <string name="generate">Generate</string>
+    <string name="scan">Scan</string>
+    <string name="using_qr_code">Using QR Code</string>
+    <string name="authors">Authors</string>
+    <string name="author">Author</string>
+    <string name="credits">Credits</string>
+    <string name="credit">Credit</string>
+    <string name="error_communication_security_credentials">Mismatching credentials (needs pairing)</string>
+    <string name="invalidate">Invalidate</string>
+    <string name="deny">Deny</string>
+    <string name="error_communication_security">A security error occurred</string>
+    <string name="nickname">Nickname</string>
+    <string name="home_Path">Home</string>
+    <string name="add_storage_access">Add Storage Access…</string>
+    <string name="clear_storage_list">Clear Storage List</string>
+    <string name="app_folder">App Folder</string>
+    <string name="change_storage_folder">Change Storage Folder</string>
+    <string name="storage_folder_notice">Save in…</string>
+    <string name="folder_not_writable">The folder is write-protected</string>
+    <string name="error_empty_field">The field should not be empty</string>
+    <string name="folder_name">Folder Name</string>
+    <string name="rejecting">Rejecting…</string>
+    <string name="receiver_pending">Pick the sender to start receiving</string>
+    <string name="sender_not_expecting">%s was not sending anything</string>
+    <string name="sender_accepted">Sender accepted</string>
+    <string name="sender_finishing">Finishing…</string>
+    <string name="starting">Starting…</string>
+    <string name="sender_wait_for_receiver_notice">Recipients can pick you here</string>
+    <string name="powered_by_damahe_code" formatted="false">Powered by <b>Damahe Code</b></string>
+    <string name="about_shiv_shambhu">About Shiv Shambhu</string>
+    <string name="about_uprotocol_content"><b>uprotocol</b> is an open content sharing protocol letting different
+        types of software to communicate and share content. It is secure by default and comes with
+        a consistent set of APIs.\n\nAs a developer, you can set it up easily and add content-sharing functionality
+        to your app!
+    </string>
+    <string name="all_songs">All Songs</string>
+    <string name="albums">Albums</string>
+    <string name="artists">Artists</string>
+    <string name="album_art">Album art</string>
+    <string name="artist_picture">Artist picture</string>
+    <string name="no_albums">No albums here</string>
+    <string name="no_folders">No folders here</string>
+    <string name="no_artists">No artists here</string>
+    <string name="no_playlists">No playlists here</string>
+    <string name="image_bucket_thumbnail">Image bucket thumbnail</string>
+    <string name="install_package">Install Package</string>
+    <string name="app_icon">App icon</string>
+    <string name="package_install_success">Package installed</string>
+    <string name="package_install_failure">Could not install the package</string>
+    <string name="package_install_aborted">Aborted package installation</string>
+    <string name="package_install_blocked">Package installation failed due to the app being blocked</string>
+    <string name="package_install_conflicted">The package conflicted with another package</string>
+    <string name="package_install_incompatible">The package is incompatible</string>
+    <string name="package_install_invalid">The package is invalid or has a different signature</string>
+    <string name="package_install_failure_storage">The installation failed due to insufficient storage space</string>
+    <string name="package_install_failure_unknown">Installation failed due to an unknown reason</string>
+    <string name="installing">Installing</string>
+    <string name="status_icon">Status icon</string>
+    <string name="shared_by_other_apps">Shared by Other Apps</string>
+    <string name="pick_the_sender">Pick Sender</string>
+    <string name="text_fileShareAppChoose">Choose an app to share with</string>
+    <string name="coming_soon">coming soon</string>
+    <string name="text_fileBrowser">File Browser</string>
+
+
+
+    <string name="text_media">Media</string>
+    <string name="audios">Audios</string>
+    <string name="categories">Categories</string>
+    <string name="album_art_dir">content://media/external/audio/albumart</string>
+    <string name="music_bitrate_freq">44100 kHz • 320 kbps</string>
+    <string name="zero_time">00:00</string>
+    <string name="playlists">Playlists</string>
+    <string name="player">Player</string>
+    <string name="filter">Filter</string>
+    <string name="a_z">A-Z</string>
+    <string name="z_a">Z-A</string>
+    <string name="newest_first">Newest first</string>
+    <string name="oldest_first">Oldest first</string>
+
+    <string name="copy_to">Copy to</string>
+    <string name="move_to">Move to</string>
+    <string name="file_details">Details</string>
+    <string name="favorites">Favorites</string>
+    <string name="favorites_folders">Favorites Folders</string>
+    <string name="saf_folders">SAF Folders</string>
+    <string name="add_favorites">Add to favorites</string>
+    <string name="remove_favorites">Remove from favorites</string>
+    <string name="share_external">Share with other apps</string>
+    <string name="text_total">Total</string>
+    <string name="wait">Please Wait</string>
+    <string name="details">Details</string>
+    <string name="content">Content</string>
+    <string name="already_exits">Already exits</string>
+    <string name="paste">Paste</string>
+    <string name="files_conflict">Conflict</string>
+    <string name="delete_transfer_history">Delete All Transfer History</string>
+
+    <string name="overwrite">Overwrite</string>
+    <string name="with">With</string>
+    <string name="replace">Replace</string>
+    <string name="replaceAll">Replace All</string>
+    <string name="skipAll">Skip All</string>
+    <string name="extWarning">Changing the file extension may make the file unusable</string>
+
+    <string name="back">Back</string>
+    <string name="ok">OK</string>
+    <string name="show_hidden_files">Show hidden files</string>
+    <string name="slide_up">Slide Up</string>
+    <string name="files_calculating">Calculating</string>
+    <string name="files_archiving">Archiving</string>
+    <string name="menu_archive">Archive</string>
+    <string name="toast_files_archived">Archived \'%1$s\' with %2$d file(s)</string>
+    <string name="copy_from">From:</string>
+    <string name="files_moving">Moving</string>
+    <string name="files_copying">Copying</string>
+    <string name="files_deleting">Deleting</string>
+    <string name="xplore_goBack">Press close Button to go back</string>
+    <string name="per_second">/s</string>
+    <string name="size_bytes">bytes</string>
+    <string name="size_gb">%1$.1f GB</string>
+    <string name="size_mb">%1$.1f MB</string>
+    <string name="size_kb">%1$.1f kb</string>
+    <string name="action_archive">Create ZIP</string>
+    <string name="extractArchive">Extract ZIP</string>
+
+    <string name="install_leaf_file_explorer">File Manager currently on Development stage, if you want to contribute for creating standard file manager please Donate.......Thank you</string>
+
+    <string name="cat_topappbar_lorem_ipsum">\t\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a, ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.
+    \n\n\t\tSuspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae, molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor bibendum, vel congue leo egestas.
+    \n\n\t\tSed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel, molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula, in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque est.
+    \n\n\t\tAenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh. Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc, quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus convallis.
+    \n\n\t\tPhasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper, libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.</string>
+</resources>

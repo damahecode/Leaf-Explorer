@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2022 Mahadev Code
+  ~
+  ~ This program is free software; you can redistribute it and/or
+  ~ modify it under the terms of the GNU General Public License
+  ~ as published by the Free Software Foundation; either version 2
+  ~ of the License, or (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+  -->
+
+<resources>
+    <!-- generalization start -->
+    <style name="Theme.LeafExplorer" parent="Theme.LeafExplorer.Base" />
+
+    <style name="Theme.LeafExplorer.NoActionBar" parent="Theme.LeafExplorer.Base.NoActionBar" />
+
+    <style name="Theme.LeafExplorer.NoActionBar.StaticStatusBar" parent="Theme.LeafExplorer.NoActionBar" />
+
+    <style name="Theme.LeafExplorer.Dark" parent="Theme.LeafExplorer.Dark.Base" />
+
+    <style name="Theme.LeafExplorer.Dark.NoActionBar" parent="Theme.LeafExplorer.Dark.Base.NoActionBar" />
+
+    <style name="Theme.LeafExplorer.Dark.NoActionBar.StaticStatusBar" parent="Theme.LeafExplorer.Dark.NoActionBar" />
+
+    <style name="BlackPatch">
+
+    </style>
+
+    <!-- generalization end -->
+
+
+    <!-- Material 3 start -->
+
+    <style name="Widget.LeafExplorer.CardView" parent="Widget.Material3.CardView.Outlined">
+        <item name="strokeColor">?colorDivider</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardBackgroundColor">@android:color/transparent</item>
+        <item name="cardCornerRadius">8dp</item>
+    </style>
+
+    <style name="OverflowButton">
+        <item name="srcCompat">@drawable/ic_more_vert_white_24dp</item>
+        <item name="android:layout_width">@dimen/icon_size_list_big</item>
+        <item name="android:layout_height">@dimen/icon_size_list_big</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:background">?roundSelector</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="Roundies" />
+
+    <style name="TextAppearance.Primary" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:letterSpacing">0.011</item>
+        <item name="android:textSize">@dimen/font_size_primary</item>
+        <item name="fontFamily">@font/roundies</item>
+    </style>
+
+    <style name="TextAppearance.Primary.Big">
+        <item name="android:textSize">@dimen/font_size_big</item>
+    </style>
+
+    <style name="TextAppearance.Primary.Big.SingleLine">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="TextAppearance.Primary.Normal">
+        <item name="android:textSize">@dimen/font_size_primary_normal</item>
+    </style>
+
+    <style name="TextAppearance.Primary.Normal.SingleLine">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="TextAppearance.Primary.Small">
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+
+    <style name="TextAppearance.Primary.Small.SingleLine">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+
+    <style name="TextAppearance.Secondary" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textSize">@dimen/font_size_secondary</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:letterSpacing">0.011</item>
+        <item name="fontFamily">@font/roundies</item>
+    </style>
+
+    <style name="TextAppearance.Secondary.SingleLine">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="TextAppearance.Secondary.Big">
+        <item name="android:textSize">@dimen/font_size_big</item>
+    </style>
+
+    <style name="TextAppearance.Secondary.Small">
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+
+    <style name="TextAppearance.Secondary.Small.SingleLine">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2022 Mahadev Code
+  ~
+  ~ This program is free software; you can redistribute it and/or
+  ~ modify it under the terms of the GNU General Public License
+  ~ as published by the Free Software Foundation; either version 2
+  ~ of the License, or (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+  -->
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_home"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.leaf.explorer.fragment.HomeFragment"
+        android:label="@string/leaf_explorer">
+
+        <action
+            android:id="@+id/action_homeFragment_to_fileDeleteDialog"
+            app:destination="@id/fileDeleteDialog" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_fileDetailsDialog"
+            app:destination="@id/fileDetailsDialog" />
+
+    </fragment>
+
+    <include app:graph="@navigation/nav_preferences" />
+    <action
+        android:id="@+id/action_global_nav_preferences"
+        app:destination="@id/nav_preferences" />
+
+    <dialog
+        android:id="@+id/changelogFragment"
+        android:name="com.leaf.explorer.fragment.dialog.ChangelogFragment"
+        android:label="@string/changelog" />
+    <action
+        android:id="@+id/action_global_changelogFragment"
+        app:destination="@id/changelogFragment" />
+
+    <dialog
+        android:id="@+id/crashLogFragment"
+        android:name="com.leaf.explorer.fragment.dialog.CrashLogFragment"
+        android:label="@string/crash_report" />
+    <action
+        android:id="@+id/action_global_crashLogFragment"
+        app:destination="@id/crashLogFragment" />
+
+    <dialog
+        android:id="@+id/fileDeleteDialog"
+        android:name="com.leaf.explorer.fragment.dialog.FileDeletionDialog"
+        android:label="@string/deletion_confirmation" />
+
+    <dialog
+        android:id="@+id/fileDetailsDialog"
+        android:name="com.leaf.explorer.fragment.dialog.FileDetailsDialog"
+        android:label="@string/details" />
+
+</navigation>
