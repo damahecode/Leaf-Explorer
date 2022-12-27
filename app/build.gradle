@@ -140,5 +140,3 @@ dependencies {
     implementation "com.github.bumptech.glide:okhttp3-integration:$glide_version"
 
 }
-
-//@LeafShare2820MD
