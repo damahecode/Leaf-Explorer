@@ -33,7 +33,7 @@ Due to lack of support, unfortunately, it's difficult for us to keep supporting 
 ### Join Telegram
 1. Get all Available updates of **Leaf Explorer** via Telegram Channel.
 2. All Information About Leaf Explorer.
-##### [Join Telegram channel](https://t.me/Shiv_Shambhu_Github)</br>
+##### [Join Telegram channel](https://t.me/damahe_code)</br>
 
 ### Leaf Explorer screen
 coming soon....
