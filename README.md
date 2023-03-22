@@ -27,7 +27,7 @@ Due to lack of support, unfortunately, it's difficult for us to keep supporting 
 * Music organised by songs and folders;
 * Now playing, embedded covers, search, sorting...
 
-### App Demo : [Google Play](https://play.google.com/store/apps/details?id=com.leaf.explorer)
+### App Demo : [Google Play](https://play.google.com/store/apps/details?id=com.leaf.explorer.android)
 [<img src="assets/google-play-badge.png" width="200">](https://play.google.com/store/apps/details?id=com.leaf.explorer)
 
 ### Join Telegram
