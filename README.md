@@ -28,7 +28,7 @@ Due to lack of support, unfortunately, it's difficult for us to keep supporting 
 * Now playing, embedded covers, search, sorting...
 
 ### App Demo : [Google Play](https://play.google.com/store/apps/details?id=com.leaf.explorer.android)
-[<img src="assets/google-play-badge.png" width="200">](https://play.google.com/store/apps/details?id=com.leaf.explorer)
+[<img src="assets/google-play-badge.png" width="200">](https://play.google.com/store/apps/details?id=com.leaf.explorer.android)
 
 ### Join Telegram
 1. Get all Available updates of **Leaf Explorer** via Telegram Channel.
