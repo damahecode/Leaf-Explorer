@@ -1,4 +1,4 @@
-## Leaf Explorer - File Manager, File Sharing & Music Player App for Android
+# Leaf Explorer - File Manager, File Sharing & Music Player App for Android
 
 Free and secure tool that helps you find file faster, manage files easily, share them offline with others and play music offline.
 
@@ -10,6 +10,9 @@ Free and secure tool that helps you find file faster, manage files easily, share
 
 ## Support ​☕
 Due to lack of support, unfortunately, it's difficult for us to keep supporting the project. If you like the app and want us to fix and improve it, please consider giving us a boost.
+
+### Web Share (New App) : [Google Play Store](https://play.google.com/store/apps/details?id=com.leaf.explorer.android)
+#### [Source Code (Leaf Explorer - Web Share)](https://www.fiverr.com/damahecode/create-a-file-sharing-app-for-android)
 
 ## Features
 #### File Manager
@@ -26,9 +29,6 @@ Due to lack of support, unfortunately, it's difficult for us to keep supporting 
 * Minimal interface
 * Music organised by songs and folders;
 * Now playing, embedded covers, search, sorting...
-
-### App Demo : [Google Play](https://play.google.com/store/apps/details?id=com.leaf.explorer.android)
-[<img src="assets/google-play-badge.png" width="200">](https://play.google.com/store/apps/details?id=com.leaf.explorer.android)
 
 ### Join Telegram
 1. Get all Available updates of **Leaf Explorer** via Telegram Channel.
