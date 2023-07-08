@@ -11,7 +11,7 @@
 [license-shield]: https://img.shields.io/github/license/damahecode/Leaf-Explorer.svg?style=for-the-badge
 [license-url]: https://github.com/damahecode/Leaf-Explorer/blob/master/LICENSE
 [visitor-shield]: https://komarev.com/ghpvc/?username=damahecode&label=Visitors&style=for-the-badge
-[visitor-url]: https://github.com/damahecode/Leaf-Explorer
+[visitor-url]: https://github.com/damahecode/
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
