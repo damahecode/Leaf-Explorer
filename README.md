@@ -1,3 +1,25 @@
+<!-- MARKDOWN LINKS -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/damahecode/Leaf-Explorer.svg?style=for-the-badge
+[contributors-url]: https://github.com/damahecode/Leaf-Explorert/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/damahecode/Leaf-Explorer.svg?style=for-the-badge
+[forks-url]: https://github.com/damahecode/Leaf-Explorer/network/members
+[stars-shield]: https://img.shields.io/github/stars/damahecode/Leaf-Explorer.svg?style=for-the-badge
+[stars-url]: https://github.com/damahecode/Leaf-Explorer/stargazers
+[issues-shield]: https://img.shields.io/github/issues/damahecode/Leaf-Explorer.svg?style=for-the-badge
+[issues-url]: https://github.com/damahecode/Leaf-Explorer/issues
+[license-shield]: https://img.shields.io/github/license/damahecode/Leaf-Explorer.svg?style=for-the-badge
+[license-url]: https://github.com/damahecode/Leaf-Explorer/blob/master/LICENSE
+[visitor-shield]: https://komarev.com/ghpvc/?username=damahecode&label=Visitors&style=for-the-badge
+[visitor-url]: https://github.com/damahecode/Leaf-Explorer
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![Visitors][visitor-shield]][visitor-url]
+
 # Leaf Explorer - File Manager, File Sharing & Music Player App for Android
 
 Free and secure tool that helps you find file faster, manage files easily, share them offline with others and play music offline.
@@ -37,8 +59,6 @@ Due to lack of support, unfortunately, it's difficult for us to keep supporting 
 
 ### Leaf Explorer screen
 coming soon....
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=damahecode&label=Count&color=0e75b6&style=plastic" alt="damahecode" /> </p>
 
 ### Web Interface
 [![Web Interface](https://github.com/trebleshot/assets/blob/main/screenshots/android/web1.png)](https://github.com/trebleshot/assets/blob/main/screenshots/android/web1.png)
