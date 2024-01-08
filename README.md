@@ -60,7 +60,7 @@ If this project help you reduce time to develop, you can give me a cup of coffee
 ### Join Telegram
 1. Get all Available updates of **Leaf Explorer** via Telegram Channel.
 2. All Information About Leaf Explorer.
-##### [Join Telegram channel](https://t.me/damahe_code)</br>
+##### [Join Telegram channel](https://t.me/damahecode)</br>
 
 ### Leaf Explorer screen
 coming soon....
