@@ -10,4 +10,6 @@ License (The Unlicense) https://github.com/AP-Atul/music_player_lite/blob/main/L
 
 #### 5) WifiP2P https://github.com/leavesC/WifiP2P
 
+#### 6) WebShare https://github.com/SatyaSnehith/WebShare
+
 etc.
