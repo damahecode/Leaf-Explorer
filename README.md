@@ -10,15 +10,12 @@
 [issues-url]: https://github.com/damahecode/Leaf-Explorer/issues
 [license-shield]: https://img.shields.io/github/license/damahecode/Leaf-Explorer.svg?style=for-the-badge
 [license-url]: https://github.com/damahecode/Leaf-Explorer/blob/master/LICENSE
-[visitor-shield]: https://komarev.com/ghpvc/?username=damahecode&label=Visitors&style=for-the-badge
-[visitor-url]: https://github.com/damahecode/
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![Visitors][visitor-shield]][visitor-url]
 
 # Leaf Explorer - File Manager, File Sharing & Music Player App for Android
 
@@ -30,14 +27,7 @@ Free and secure tool that helps you find file faster, manage files easily, share
 - [x] Offline File Share (Web).
 - [ ] Music Player.
 
-## Support ​☕
-Due to lack of support, unfortunately, it's difficult for us to keep supporting the project. If you like the app and want us to fix and improve it, please consider giving us a boost.
-## Donation
-If this project help you reduce time to develop, you can give me a cup of coffee :)
-
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://damahecode.blogspot.com/2023/07/donate-to-damahe-code.html)
-
-### Web Share (New App) : [Google Play Store](https://play.google.com/store/apps/details?id=com.leaf.explorer.android)
+### Web Share (New App) : [Google Play Store](https://play.google.com/store/apps/details?id=com.leaf.explorer.android) < - > [Source code](https://www.fiverr.com/damahecode/create-a-file-sharing-app-for-android)
 
 ### Download Apk : [Leaf Explorer v-5.0.1](https://github.com/damahecode/Leaf-Explorer/releases/tag/v-5.0.1)
 
