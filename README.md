@@ -27,7 +27,7 @@ Free and secure tool that helps you find file faster, manage files easily, share
 - [x] Offline File Share (Web).
 - [ ] Music Player.
 
-### Web Share (New App) : [Google Play Store](https://play.google.com/store/apps/details?id=com.leaf.explorer.android)[
+### Web Share (New App) : [Google Play Store](https://play.google.com/store/apps/details?id=com.leaf.explorer.android)
 
 ### Download Apk : [Leaf Explorer v-5.0.1](https://github.com/damahecode/Leaf-Explorer/releases/tag/v-5.0.1)
 
